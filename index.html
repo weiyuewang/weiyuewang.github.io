@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weiyue Wang</title>
+
+<meta charset="UTF-8"> 
+<link rel="icon" href="imgs/usc_icon.png">
+
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+<link href="font.css" rel='stylesheet' type='text/css'>
+
+<script type="text/javascript">   
+function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){  
+var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;  
+var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;  
+var openTip = oOpenTip || "";  
+var shutTip = oShutTip || "";  
+if(targetObj.style.display!="none"){  
+   if(shutAble) return;  
+   targetObj.style.display="none";  
+   if(openTip  &&  shutTip){  
+    sourceObj.innerHTML = shutTip;   
+   }  
+} else {  
+   targetObj.style.display="block";  
+   if(openTip  &&  shutTip){  
+    sourceObj.innerHTML = openTip;   
+   }  
+}  
+}  
+</script>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="name">
+			<div class="tooltip"><h1 class="quickFade "><a href="###" onclick="openShutManager(this,'chinesename')" style="text-decoration: none">Weiyue Wang</a>
+			</h1>
+
+  			<span class="tooltiptext">Click to see my name in Chinese characters.</span></div>
+			<div id="chinesename" style="display:none">
+				<pre p>
+				 王薇月
+				</pre>
+			</div>
+			<h3 class="quickFade ">Ph.D. Student in Computer Science</h3>
+			<h3 class="quickFade ">University of Southern California</h3>
+			<h6 class="top-fifteen">
+				<div class="tooltip1">
+					<a href="CV.pdf"><img src="imgs/cv_icon.png" width=25px></a>&ensp;
+					<span class="tooltiptext1">CV</span>
+				</div>
+				<div class="tooltip1">
+					<a href="https://github.com/laughtervv"><img src="imgs/git_icon.png" width=25px></a>&ensp;
+					<span class="tooltiptext1">GitHub</span>
+				</div>
+				<div class="tooltip1">
+					<a href="https://scholar.google.com/citations?user=f9ItVu0AAAAJ"><img src="imgs/googlescholar_icon.png" width=20px></a>
+					<span class="tooltiptext1">Google Scholar</span>
+				</div>
+			</h6>
+
+			<ul class="quickFade ">
+				<li>Email: weiyuewa at usc dot edu</li>
+				<li>Address: 3737 Watt Way, <br> 
+				&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;PHE 108, <br> 
+				&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Los Angeles, CA</li>
+			</ul>
+
+		</div>
+		<div id="headshot" class="quickFade">
+			<img src="imgs/headshot.jpg"/>
+		</div>
+		
+		<!-- 
+		<div id="contactDetails" class="quickFade delayFour">
+		</div> -->
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>About Me</h1>
+				</div>
+				
+				<div class="sectionContent1">
+					<p>I'm a fourth-year Ph.D. student at University of Southern California, working in Computer Graphics and Immersive Technologies Lab under Prof. Ulrich Neumann. </p>
+					<p> My research focuses on computer vision, particularly 3D scene understanding and reconstruction.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Publications</h1>
+				<h2 class="bottom-three">Ph.D. Works</h2>
+			</div>
+			
+
+			<div class="sectionContent">
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/disn.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction</h4>
+						<p2><b>Weiyue Wang*</b>, Qiangeng Xu*, Duygu Ceylan, Radomír Měch and Ulrich Neumann </p2>
+						<p2 class="subDetails">arxiv preprint, 2019</p2>
+						<p2> <a href="https://arxiv.org/pdf/1905.10711.pdf">paper</a> | <a href="###" onclick="openShutManager(this,'3dnbib')">bibtex</a> | <a href="https://github.com/laughtervv/DISN">code</a> | <a href="papers/neurips_2019_supp.pdf">supplementary</a></p2>
+						<p2>* equal contributions</p2>
+						<div id="3dnbib" style="display:none">
+						<pre p>
+@article{wang2019DISN,
+    title={DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction},
+    author={Wang, Weiyue and Qiangeng, Xu and Ceylan, Duygu and Mech, Radomir and Neumann, Ulrich},
+    journal={arXiv preprint arXiv:1905.10711},
+    year={2019}
+}
+						</pre>
+						</div>
+					</div>
+				</article>
+
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/cvpr19_3dn.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>3DN: 3D Deformation Network</h4>
+						<p2><b>Weiyue Wang</b>, Duygu Ceylan, Radomír Měch and Ulrich Neumann</p2>
+						<p2 class="subDetails">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2019</p2>
+						<p2> <a href="https://arxiv.org/abs/1903.03322">paper</a> | <a href="###" onclick="openShutManager(this,'3dnbib')">bibtex</a> | <a href="https://github.com/laughtervv/3DN">code</a> </p2><p2>We cannot make our code public on github due to Adobe code release policy. Please email both <a href="mailto:ceylan@adobe.com">Duygu</a> and we will prepare a code release form and share the code to you. </p2>
+						<div id="3dnbib" style="display:none">
+						<pre p>
+@inproceedings{wang20193dn,
+    title={3DN: 3D Deformation Network},
+    author={Wang, Weiyue and Ceylan, Duygu and Mech, Radomir and Neumann, Ulrich},
+    booktitle={CVPR},
+    year={2019}
+}
+						</pre>
+						</div>
+					</div>
+				</article>
+
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/depthconv.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>Depth-aware CNN for RGB-D Segmentation</h4>
+						<p2><b>Weiyue Wang</b> and Ulrich Neumann</p2>
+						<p2 class="subDetails">European Conference on Computer Vision (<b>ECCV</b>), 2018</p2>
+						<p2> <a href="https://arxiv.org/abs/1803.06791">paper</a> | <a href="###" onclick="openShutManager(this,'depthconvbib')">bibtex</a> | <a href="https://github.com/laughtervv/DepthAwareCNN">code</a></p2>
+						<div id="depthconvbib" style="display:none">
+						<pre p>
+@inproceedings{wang2018depthconv,
+	title={Depth-aware CNN for RGB-D Segmentation},
+	author={Wang, Weiyue and Neumann, Ulrich},
+	booktitle={ECCV},
+	year={2018}
+}
+						</pre>
+						</div>
+					</div>
+				</article>
+
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/sgpn.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>SGPN: Similarity Group Proposal Network for 3D Point Cloud Instance Segmentation</h4>
+						<p2><b>Weiyue Wang</b>, Ronald Yu, Qiangui Huang and Ulrich Neumann</p2>
+						<p2 class="subDetails">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2018, <b>Spotlight</b></p2>
+						<p2> <a href="https://arxiv.org/abs/1711.08588">paper</a> | <a href="###" onclick="openShutManager(this,'sgpnbib')">bibtex</a> | <a href="https://github.com/laughtervv/SGPN">code</a></p2>
+						<div id="sgpnbib" style="display:none">
+						<pre p>
+@inproceedings{wang2018sgpn,
+	title={SGPN: Similarity Group Proposal Network for 3D Point Cloud Instance Segmentation},
+	author={Wang, Weiyue and Yu, Ronald and Huang, Qiangui and Neumann, Ulrich},
+	booktitle={CVPR},
+	year={2018}
+}
+						</pre>
+						</div>
+					</div>
+				</article>
+
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/cvpr18_rsnet.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>Recurrent Slice Networks for 3D Segmentation on Point Clouds</h4>
+						<p2>Qiangui Huang, <b>Weiyue Wang</b> and Ulrich Neumann</p2>
+						<p2 class="subDetails">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2018, <b>Spotlight</b></p2>
+						<p2> <a href="https://arxiv.org/abs/1802.04402">paper</a> | <a href="###" onclick="openShutManager(this,'cvprrsnetbib')">bibtex</a> | <a href="https://github.com/qianguih/RSNet">code</a></p2>
+						<div id="cvprrsnetbib" style="display:none">
+						<pre p>
+@inproceedings{huang2018rsnet,
+	title={Recurrent Slice Networks for 3D Segmentation on Point Clouds},
+	author={Huang, Qiangui and Wang, Weiyue and Neumann, Ulrich},
+	booktitle={CVPR},
+	year={2018}
+}
+						</pre>
+						</div>
+					</div>
+				</article>
+
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/iccv17.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>Shape Inpainting using 3D Generative Adversarial Network and Recurrent Convolutional Networks</h4>
+						<p2><b>Weiyue Wang</b>, Qiangui Huang, Suya You, Chao Yang and Ulrich Neumann</p2>
+						<p2 class="subDetails">International Conference on Computer Vision (<b>ICCV</b>), 2017</p2>
+						<p2> <a href="https://arxiv.org/abs/1711.06375">paper</a> | <a href="###" onclick="openShutManager(this,'wang2017shapeinpainting')">bibtex</a></p2>
+						<div id="wang2017shapeinpainting" style="display:none">
+						<pre p>
+@inproceedings{wang2017shapeinpainting,
+	title={Shape Inpainting using 3D Generative Adversarial Network and Recurrent Convolutional Networks},
+	author={Wang, Weiyue and Huang, Qiangui and You, Suya and Yang, Chao and Neumann, Ulrich},
+	booktitle={ICCV},
+	year={2017}
+}
+						</pre>
+						</div>
+					</div>	
+				</article>
+				
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/icra17.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>Self-Paced Cross-Modality Transfer Learning for Efficient Road Segmentation</h4>
+						<p2><b>Weiyue Wang</b>, Naiyan Wang, Xiaomin Wu, Suya You and Ulrich Neumann </p2>
+						<p2 class="subDetails">International Conference on Robotics and Automation (<b>ICRA</b>), 2017</p2>
+						<p> <a href="http://graphics.usc.edu/cgit/publications/papers/weiyuewa_icra17.pdf">paper</a> | <a href="###" onclick="openShutManager(this,'wang2017selfpaced')">bibtex</a></p>
+						<div id="wang2017selfpaced" style="display:none">
+						<pre p>
+@inproceedings{wang2017selfpaced,
+	title={Self-Paced Cross-Modality Transfer Learning for Efficient Road Segmentation},
+	author={Wang, Weiyue and Wang, Naiyan and Wu, Xiaomin and You, Suya and Yang, Chao and Neumann, Ulrich},
+	booktitle={ICRA},
+	year={2017}
+}
+						</pre>
+						</div>
+					</div>	
+				</article>
+				
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/scenelabeling_qiangui.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>Scene Labeling using Gated Recurrent Units with Explicit Long Range Conditioning</h4>
+						<p2>Qiangui Huang, <b>Weiyue Wang</b>, Kevin Zhou, Suya You and Ulrich Neumann </p2>
+						<p2 class="subDetails">arXiv preprint, 2016</p2>
+						<p> <a href="https://arxiv.org/abs/1611.07485">paper</a> | <a href="###" onclick="openShutManager(this,'huang2016scenelabeling')">bibtex</a></p>
+						<div id="huang2016scenelabeling" style="display:none">
+						<pre p>
+@article{huang2016scenelabeling,
+	title={Scene Labeling using Gated Recurrent Units with Explicit Long Range Conditioning},
+	author={Huang, Qiangui and Wang, Weiyue and Zhou, Kevin and You, Suya and Neumann, Ulrich},
+	journal={arXiv preprint arXiv:1611.07485},
+	year={2016}
+}
+						</pre>
+						</div>
+					</div>	
+				</article>
+			</div>
+				
+<!-- <hr> -->
+			<div class="sectionTitle">
+				<h2 class="bottom-three">Undergrad Works</h2>
+			</div>
+			<div class="sectionContent">
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/tip16.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>A Diffusion and Clustering-based Approach for Finding Coherent Motions and Understanding Crowd Scenes</h4>
+						<p2>Weiyao Lin, Yang Mi, <b>Weiyue Wang</b>, Jianxin Wu, and Jingdong Wang</p2>
+
+						<p2 class="subDetails">IEEE Transaction on Image Processing (<b>TIP</b>), 2016</p2>
+						<p> <a href="https://arxiv.org/abs/1602.04921">paper</a> | <a href="###" onclick="openShutManager(this,'lin2016tip')">bibtex</a></p>
+						<div id="lin2016tip" style="display:none">
+						<pre p>
+@article{lin2016tip,
+	title={A Diffusion and Clustering-based Approach for Finding Coherent Motions and Understanding Crowd Scenes},
+	author={Lin, Weiyao and Mi, Yang and Wang, Weiyue and Wu, Jianxin and Wang, Jingdong},
+	journal={IEEE Transaction on Image Processing (TIP)},
+	year={2016}
+}
+						</pre>
+						</div>
+					</div>	
+				</article>
+
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/cvprSUNw.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>Finding Coherent Motions and Understanding Crowd Scenes: a Diffusion and Clustering-based Approach</h4>
+						<p2>Weiyao Lin, Yang Mi and <b>Weiyue Wang</b></p2>
+
+						<p2 class="subDetails">IEEE Conference on Computer Vision and Pattern Recognition Scene Understanding Workshop (<b>CVPR SUNw</b>), 2015</p2>
+						<p> <a href="http://sunw.csail.mit.edu/2015/papers/29_Lin_SUNw.pdf">paper</a></p>
+					</div>	
+				</article>
+
+				<article>
+					<div class="subsectionImage">
+						<img src="imgs/eccv14.png"/>
+					</div>
+					<div class="subsectionContent">
+						<h4>Finding Coherent Motions and Semantic Regions in Crowd Scenes: A Diffusion and Clustering Approach</h4>
+						<p2><b>Weiyue Wang</b>, Weiyao Lin, Yuanzhe Chen, Jianxin Wu, Jingdong Wang, and Bin Sheng</p2>
+
+						<p2 class="subDetails">European Conference on Computer Vision (<b>ECCV</b>), 2014</p2>
+						<p> <a href="papers/WangECCV2014.pdf">paper</a> | <a href="###" onclick="openShutManager(this,'wang2017coherentmotions1')">bibtex</a></p>
+						<div id="wang2017coherentmotions1" style="display:none">
+						<pre p>
+@inproceedings{wang2017coherentmotions,
+	title={Finding Coherent Motions and Semantic Regions in Crowd Scenes: A Diffusion and Clustering Approach},
+	author={Wang, Weiyue and Lin, Weiyao and Chen, Yuanzhe and Wu, Jianxin and Wang, Jingdong and Sheng, Bin},
+	booktitle={ECCV},
+	year={2014}
+}
+						</pre>
+						</div>
+					</div>	
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>	
+			<div class="sectionTitle">
+				<h1>Experience</h1>
+			</div>
+			<div class="sectionContent">
+				<div class="sectionContent1">
+					    <p>Internships:<br>
+					    	 &emsp;&emsp;Adobe, Summer 2018, San Jose<br>
+					    	 &emsp;&emsp;TuSimple, Summer 2017, San Diego<br>
+					    	 &emsp;&emsp;TuSimple, Summer 2016, Beijing</p>
+						<p>Teaching: <br>
+							&emsp;&emsp;USC CSCI-677 Advanced Computer Vision, Fall 2018<br>
+							&emsp;&emsp;USC CSCI-585 Database System, Spring 2017</p>
+						<p>Reviewer: <br>
+							&emsp;&emsp;ICCV19, CVPR19, TPAMI, CVPR18, ICRA18, IROS18, ACCV18, CVIU, <br>
+						    &emsp;&emsp;ISPRS Journal of Photogrammetry</p>
+				</div>
+				</div>		
+
+			<div class="clear"></div>
+
+		</section>
+		<section>	
+			<div class="sectionTitle">
+				<h1>Misc</h1>
+			</div>
+			<div class="sectionContent">
+				<div class="sectionContent1">
+					<a href="http://yiben.ink:8080/"><img src="imgs/yiben.jpg" width=50px></a>
+				</div>
+				</div>		
+
+			<div class="clear"></div>
+
+		</section>
+		
+		
+		
+	</div>
+</div>
+
+<p align="center">Last updated: August, 2018 | <a href="###" onclick="openShutManager(this,'clustrmaps-widget')">ClusterMap</a> </p>  
+<div align="center" id="clustrmaps-widget" style="display:none"><script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=j7lXVst354VLCPr3MCDJmJ18Iuc4mk91IiBjuwSyp7A"></script> 
+</div>
+</body>
+</html>
