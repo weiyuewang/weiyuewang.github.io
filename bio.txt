@@ -1,2 +1,2 @@
-Weiyue Wang is a fourth-year Ph.D. student at University of Southern California, working in Computer Graphics and Immersive Technologies Lab under Prof. Ulrich Neumann.
+Weiyue Wang is a fourth-year Ph.D. student at University of Southern California, working in Computer Graphics and Immersive Technologies Lab under Prof. Ulrich Neumann. 
 Her research focuses on deep learning, computer vision, particularly in 3D. Her major projects include developing deep learning frameworks for 3D data (point clouds, volumetric grids and depth images) and to apply them to perception tasks (such as semantic scene parsing and instance segmentation) and 3D modeling tasks(such as shape inpainting and 3D deformation).
